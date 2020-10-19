@@ -18,7 +18,7 @@
 */
 
 body {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Noto Serif KR", serif;
   font-size: 18px;
   color: #515151;
   line-height: 1.75rem;
@@ -43,7 +43,8 @@ h1 a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 500;
   color: #333;
 }
 
@@ -85,8 +86,6 @@ hr {
   width: 615px;
 }
 
-/*48em*/
-
 @media (max-width: 768px) {
   .container {
     width: 90vw;
@@ -101,7 +100,8 @@ hr {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 4rem;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 500;
 }
 
 .masthead a:hover {
@@ -153,8 +153,9 @@ hr {
   margin-top:3px;
   margin-bottom: 1rem;
   color: #9a9a9a;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-size:0.8rem;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 30rem) {
@@ -182,7 +183,8 @@ hr {
 
 .pagination {
   overflow: hidden;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 

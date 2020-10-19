@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: 게시물
 ---
 <ul class="posts">
   {% for post in site.posts %}

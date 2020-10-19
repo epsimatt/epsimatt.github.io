@@ -1,10 +1,10 @@
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
+# google-ID: 'UA-180836351-1'
 google-ID: ''
 
 menu:
-- {name: 'About', path: 'menu', url: 'about.html'}
-- {name: 'Contact', path: 'menu', url: 'contact.html'}
-- {name: 'Posts', path: 'menu', url: 'posts.html'}
+- {name: '소개', path: 'menu', url: 'about.html'}
+- {name: '게시물', path: 'menu', url: 'posts.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
@@ -14,11 +14,11 @@ social:
 
 # Customize site text
 pagination:
-  next_page: '>'
-  previous_page: '<'
+  next_page: '다음 >'
+  previous_page: '< 이전'
 
 sharing_button_prompt: ''
 
-related_posts: 'You may also enjoy:'
+related_posts: '관련 글:'
 
-post_date_prefix: 'Written on'
+post_date_prefix: '작성 시간:'
