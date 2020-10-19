@@ -7,7 +7,11 @@ title: 소개
 
 ## 개인 프로젝트
 
-[raylib-pong](https://github.com/jdeokkim/raylib-pong): 크로스-플랫폼 C 게임 라이브러리인 [raylib](https://github.com/raysan5/raylib)를 사용하여 만든 "Pong" 게임의 리메이크 버전
+![raylib_pong](/assets/img/2020-10-20_screenshot_raylib_pong.png)
+
+[raylib_pong](https://github.com/jdeokkim/raylib_pong): 크로스-플랫폼 C 게임 라이브러리인 [raylib](https://github.com/raysan5/raylib)를 사용하여 만든 "Pong" 게임의 리메이크 버전
+
+![leko-demo](/assets/img/2020-10-20_screenshot_leko-demo.png)
 
 [leko-demo](https://github.com/jdeokkim/leko-demo): 크로스-플랫폼 C 게임 라이브러리인 [raylib](https://github.com/raysan5/raylib)와 즉시 모드 (immediate-mode) GUI 라이브러리인 [raygui](https://github.com/raysan5/raygui)를 사용하여 만든 블록 퍼즐 게임
 
@@ -15,6 +19,6 @@ title: 소개
 
 ## 오픈 소스 프로젝트 기여
 
-[duckduckgo-locales](https://github.com/duckduckgo/duckduckgo-locales): [DuckDuckGo 검색 엔진](https://duckduckgo.com)의 한국어 번역 기여
+[duckduckgo-locales](https://github.com/duckduckgo/duckduckgo-locales): [DuckDuckGo](https://duckduckgo.com) 검색 엔진의 한국어 번역 기여
 
 [byte-of-python](https://github.com/swaroopch/byte-of-python): "A Byte of Python" 책의 일부 내용 수정, 한국어 번역본 작업 중
