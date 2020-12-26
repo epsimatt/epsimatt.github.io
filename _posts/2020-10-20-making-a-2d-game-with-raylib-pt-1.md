@@ -11,7 +11,7 @@ image: "2020-10-20/201020_i00.png"
 
 서점에서 두꺼운 책을 하나 사고 모르는 내용은 인터넷으로 찾아보며 열심히 공부를 하다가 네이버에 "C언어로 게임 만들기"를 검색해본 저는 너무 당황하고 말았습니다. C언어로 만든 게임 예제가 전부 제가 생각했던 게임과는 너무나 다른 콘솔 게임밖에 없었기 때문이었습니다. 
 
-그 이후로 저는 C언어에 대한 흥미를 완전히 잃어 다시 C언어를 공부할 생각은 전혀 하지 않고 있었는데, 대학교 입학 전에 우연히 깃허브에서 [raylib](https://github.com/raysan5/raylib)라는 라이브러리를 발견하게 되었습니다. "바로 이거지!" 라는 생각이 든 저는 raylib를 다운받아 예제를 하나씩 실행해보며 예제 소스 코드의 간결함에 빠져버렸고, raylib로 직접 게임을 만들어보며 지금처럼 C 프로그래밍을 재미있게 공부하게 되었습니다.
+그 이후로 저는 C언어에 대한 흥미를 완전히 잃어 다시 C언어를 공부할 생각은 전혀 하지 않고 있었는데, 대학교 입학 전에 우연히 GitHub에서 [raylib](https://github.com/raysan5/raylib)라는 라이브러리를 발견하게 되었습니다. "바로 이거지!" 라는 생각이 든 저는 raylib를 다운받아 예제를 하나씩 실행해보며 예제 소스 코드의 간결함에 빠져버렸고, raylib로 직접 게임을 만들어보며 지금처럼 C 프로그래밍을 재미있게 공부하게 되었습니다.
 
 제가 이 글을 쓰게 된 이유는 혹시 저처럼 게임을 만들면서 C언어를 재미있게 공부하고 싶은 사람들에게 이런 방법이 있다는 것을 소개시켜주기 위해서입니다. 
 
@@ -46,7 +46,7 @@ image: "2020-10-20/201020_i00.png"
 
 ![201020_w01](../assets/img/2020-10-20/201020_w01.png)
 
-- 먼저 [raylib의 공식 깃허브 저장소](https://github.com/raysan5/raylib)에서 raylib를 다운받습니다.
+- 먼저 [raylib의 공식 GitHub 저장소](https://github.com/raysan5/raylib)에서 raylib를 다운받습니다.
 
 <br />
 
@@ -175,7 +175,7 @@ Resolving deltas: 100% (18511/18511), done.
 Checking out files: 100% (739/739), done.
 ```
 
-- raylib 깃허브 저장소를 `git clone`해줍니다.
+- raylib의 GitHub 저장소를 `git clone`해줍니다.
 
 <br />
 
@@ -211,7 +211,7 @@ raylib development files installed/updated!
 
 ```console
 # cd /workspace/raylib-gamedev
-# mkdir -p raylib-example/src && cd raylib-example/src
+# mkdir -p raylib-example/src && cd raylib-example
 ```
 
 ```c

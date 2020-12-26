@@ -13,13 +13,13 @@ image: "2020-11-22/201122_i00.png"
 
 # 목차
 
-1. [raylib 깃허브 저장소에서 raylib 라이브러리 관련 문서 읽어보기](#c1)
+1. [raylib의 GitHub 저장소에서 raylib 라이브러리 관련 문서 읽어보기](#c1)
 2. ["hello, world...?" 예제 프로그램 소스 코드 분석하기](#c2)
 3. [raylib 라이브러리의 다양한 예제 프로그램 확인하기](#c3)
 
 <br />
 
-## raylib 깃허브 저장소에서 raylib 라이브러리 관련 문서 읽어보기 {#c1}
+## raylib의 GitHub 저장소에서 raylib 라이브러리 관련 문서 읽어보기 {#c1}
 
 [raylib 라이브러리 위키](https://github.com/raysan5/raylib/wiki)로 들어가보면 오른쪽 목차에 *'Library Design'*이 있을텐데, 이 중 raylib 라이브러리 구조에 대해 설명하는 ['raylib architecture'](https://github.com/raysan5/raylib/wiki/raylib-architecture)라는 글을 꼭 읽어보는 것이 좋습니다.
 
@@ -102,7 +102,7 @@ void UpdateCurrentScreen(void) {
 }
 ```
 
-[raylib 깃허브 저장소에서 raylib 라이브러리 관련 문서 읽어보기](#c1)에서 주요 모듈의 함수 원형은 모두 `raylib.h`에 정의되어 있다고 하였습니다. 그렇기 때문에 raylib 라이브러리에서 잘 모르는 함수가 있을 경우, `raylib.h`에서 함수 원형을 찾아 그 옆에 적힌 주석만 읽어보면 함수가 무슨 기능을 하는지 쉽게 알 수 있습니다.
+[raylib의 GitHub 저장소에서 raylib 라이브러리 관련 문서 읽어보기](#c1)에서 주요 모듈의 함수 원형은 모두 `raylib.h`에 정의되어 있다고 하였습니다. 그렇기 때문에 raylib 라이브러리에서 잘 모르는 함수가 있을 경우, `raylib.h`에서 함수 원형을 찾아 그 옆에 적힌 주석만 읽어보면 함수가 무슨 기능을 하는지 쉽게 알 수 있습니다.
 
 먼저 `main` 함수부터 보겠습니다. `main` 함수에서는 `InitWindow`, `SetTargetFPS`와 `WindowShouldClose`라는 함수가 등장하는데, `raylib.h`에서 함수 원형을 찾아 주석을 읽어보면 
 다음과 같은 내용을 확인할 수 있습니다.
