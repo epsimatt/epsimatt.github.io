@@ -52,13 +52,13 @@ image: "2020-10-20/201020_i00.png"
 
 ![201020_w02](../assets/img/2020-10-20/201020_w02.png)
 
-- 그 다음은 [여기](https://github.com/jdeokkim/raylib_wiki_kr)서 raylib 라이브러리 빌드에 필요한 비주얼 스튜디오 솔루션 파일과 템플릿 파일을 다운받습니다.
+- 그 다음은 [여기](https://github.com/jdeokkim/raylib_template)서 raylib 라이브러리 빌드에 필요한 비주얼 스튜디오 솔루션 파일과 템플릿 파일을 다운받습니다.
 
 <br />
 
 ![201020_w03](../assets/img/2020-10-20/201020_w03.png)
 
-- `raylib-master.zip` 파일을 열고, `raylib-master` 폴더 안의 `src` 폴더를 복사합니다. 그런 다음, `raylib_wiki_kr-main.zip`을 열고 `raylib_wiki_kr-main` 폴더의 압축을 풀어줍니다. 압축을 풀면 `raylib_build_vs2017`라는 폴더가 있을텐데, 그 안의 `src` 폴더를 삭제하고 아까 복사한 `src` 폴더를 여기에 붙여넣습니다. 
+- `raylib-master.zip` 파일을 열고, `raylib-master` 폴더 안의 `src` 폴더를 복사합니다. 그런 다음, `raylib_template-main.zip`을 열고 `raylib_template-main` 폴더의 압축을 풀어줍니다. 압축을 풀면 `raylib_build_vs2017`라는 폴더가 있을텐데, 그 안의 `src` 폴더를 삭제하고 아까 복사한 `src` 폴더를 여기에 붙여넣습니다. 
 
 <br />
 
